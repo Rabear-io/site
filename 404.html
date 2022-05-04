@@ -126,7 +126,7 @@
           back.innerText = `Taking you back in ${timer}`;
         }, 1000);
         setTimeout(() => {
-          window.location.href = "/";
+          window.history.back()
         }, 6000);
       }
       goBack();
